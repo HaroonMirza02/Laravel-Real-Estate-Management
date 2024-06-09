@@ -1,0 +1,56 @@
+.headerImg {
+    position: relative;
+    width: auto;
+    height: 600px;
+}
+
+.headerImg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/header.jpg");
+    filter: brightness(50%);
+    z-index: -2;
+}
+
+.content-items {
+    position: relative;
+    z-index: 1; 
+}
+
+.inputCity{
+    height: 50px;
+}
+
+.inputLocation{
+    height: 50px;
+}
+
+.inputFind{
+    height: 50px;
+    background-color: navy;
+    color: white;
+    border: none;
+}
+
+
+.bodyImg {
+    position: relative;
+    width: auto;
+    height: 300px;
+}
+
+.bodyImg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/img2.jpg");
+    filter: brightness(50%);
+    z-index: -2;
+}
